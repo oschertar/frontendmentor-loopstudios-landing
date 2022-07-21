@@ -194,3 +194,37 @@ main .our-creations .our-creations-grid div:nth-child(7)::before {
 main .our-creations .our-creations-grid div:nth-child(8)::before {
     background-image: url('./../images/desktop/image-fisheye.jpg');
 }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: 150px;
+}
+
+footer .icons-section,
+footer .nav-section-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icons-section .icons {
+    display: flex;
+    gap: 16px;
+}
+
+footer .nav-section-copyright ul {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    font-family: "Alata";
+    gap: 32px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+footer .nav-section-copyright p {
+    color: hsl(0, 0%, 55%);
+    font-family: "Alata";
+    font-size: 15px;
+}
