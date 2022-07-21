@@ -85,3 +85,112 @@ main .description-product .details-section p {
     color: hsl(0, 0%, 55%);
     margin-bottom: 0;
 }
+
+main .our-creations {
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+}
+
+main .our-creations .banner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .our-creations .banner-info h3 {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+
+main .our-creations .banner-info button {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 50px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    cursor: pointer;
+}
+
+main .our-creations .our-creations-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+    margin-top: 150px;
+}
+
+main .our-creations .our-creations-grid div {
+    position: relative;
+    height: 600px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+main .our-creations .our-creations-grid div::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: filter 0.4s ease;
+    filter: brightness(0.75);
+}
+
+main .our-creations .our-creations-grid div:hover::before {
+    filter: opacity(0.3);
+}
+
+main .our-creations .our-creations-grid div:hover span {
+    color: #000;
+}
+
+main .our-creations .our-creations-grid div span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 40px;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    padding: 64px;
+}
+
+main .our-creations .our-creations-grid div:nth-child(1)::before {
+    background-image: url('./../images/desktop/image-deep-earth.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(2)::before {
+    background-image: url('./../images/desktop/image-night-arcade.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(3)::before {
+    background-image: url('./../images/desktop/image-soccer-team.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(4)::before {
+    background-image: url('./../images/desktop/image-grid.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(5)::before {
+    background-image: url('./../images/desktop/image-from-above.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(6)::before {
+    background-image: url('./../images/desktop/image-pocket-borealis.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(7)::before {
+    background-image: url('./../images/desktop/image-curiosity.jpg');
+}
+
+main .our-creations .our-creations-grid div:nth-child(8)::before {
+    background-image: url('./../images/desktop/image-fisheye.jpg');
+}
