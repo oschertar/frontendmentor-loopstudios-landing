@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+.main-hero {
+    background: url('./../images/desktop/image-hero.jpg');
+    background-size: cover;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.main-hero nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    *padding: 80px 40px;
+}
+
+.main-hero nav ul {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    font-family: "Alata";
+    gap: 32px;
+}
+
+.main-hero nav ul li {
+    font-size: 18px;
+}
+
+.main-hero .container-title {
+    padding: 40px 0;
+}
+
+.main-hero h1 {
+    font-size: 88px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    font-family: "Josefin Sans";
+    color: #fff;
+    padding: 32px;
+    max-width: 50%;
+    font-weight: 400;
+}
+
+main .description-product {
+    background: url('./../images/desktop/image-interactive.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    background-size: contain;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+main .description-product .details-section {
+    position: absolute;
+    background-color: #fff;
+    padding: 100px 100px 0 100px;
+    bottom: 0;
+    width: 40%;
+    right: 0;
+}
+
+main .description-product .details-section h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+main .description-product .details-section p {
+    font-family: "Alata";
+    font-size: 20px;
+    color: hsl(0, 0%, 55%);
+    margin-bottom: 0;
+}
